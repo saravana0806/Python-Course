@@ -1,0 +1,74 @@
+
+SQL and Python Integration
+
+Sales Performance Alert - You are working for an e-commerce company. The company wants to be alerted if the total sales for any product category fall below a certain threshold within a month.
+
+Question: Write a Python function that connects to the sales database, queries the total sales for each product category for the current month, and sends an alert if any category's total sales fall below $10,000.
+
+Table Name: sales
+Columns:
+sale_id (INTEGER): Unique identifier for each sale.
+category (TEXT): The category of the product sold.
+sales_amount (REAL): The amount of the sale.
+sale_date (DATE): The date of the sale.
+
+
+
+
+Inventory Reorder Notification - You manage inventory for a manufacturing company. You need to notify the inventory manager if the stock level for any item falls below the reorder threshold.
+
+Question: Write a Python script that connects to the inventory database, checks the stock levels against the reorder thresholds, and sends a notification if any items need to be reordered.
+Table Name: inventory
+Columns:
+item_id (INTEGER): Unique identifier for each inventory item.
+item_name (TEXT): The name of the item.
+stock_level (INTEGER): The current stock level of the item.
+reorder_threshold (INTEGER): The stock level threshold below which reordering is required.
+
+
+
+
+
+
+Customer Account Inactivity Notification - As a customer support manager, you need to notify your team if a customer account has been inactive for over a year.
+
+Question: Write a Python function to connect to the customer database, identify inactive accounts based on the last login date, and send a notification if any account has been inactive for over a year.
+
+Table Name: customers
+Columns:
+customer_id (INTEGER): Unique identifier for each customer.
+customer_name (TEXT): The name of the customer.
+last_login (DATE): The date of the customer's last login.
+
+
+
+
+Employee Absence Alert - You are an HR manager and want to be alerted if an employee’s number of absences exceeds a predefined limit within a month.
+
+Question: Write a Python function that connects to the employee attendance database, checks if any employee has exceeded the absence limit for the current month, and sends an alert if they have.
+
+Table Name: attendance
+Columns:
+attendance_id (INTEGER): Unique identifier for each attendance record.
+employee_id (INTEGER): Identifier for the employee.
+absence_date (DATE): The date of the absence.
+
+Table Name: employees
+Columns:
+employee_id (INTEGER): Unique identifier for each employee.
+employee_name (TEXT): The name of the employee.
+
+
+
+
+Late Payment Reminder - You work in the accounts department and need to send reminders to clients with overdue invoices.
+
+Question: Write a Python function that connects to the invoice database, identifies overdue invoices, and sends a reminder email to clients with overdue payments.
+
+Table Name: invoices
+Columns:
+invoice_id (INTEGER): Unique identifier for each invoice.
+client_email (TEXT): The email address of the client.
+due_date (DATE): The due date for the invoice.
+payment_status (TEXT): The status of the payment (e.g., 'Unpaid', 'Paid').
+
